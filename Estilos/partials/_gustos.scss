@@ -1,0 +1,30 @@
+.comun{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    h1{
+        font-family: $FuenteCarta;
+        font-size: 35px; 
+    }
+    ul{
+        font-family:$FuenteCarta
+        columns: 2;
+        font-size: 25px;
+        gap: 30px;
+    }
+    div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 400px;
+    }
+    img{
+        width: 400px;
+    }
+}
